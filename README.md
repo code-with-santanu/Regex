@@ -69,9 +69,6 @@
 '$'                     : Anchors the regex at the end of the string.
 
 
-
-
-
 'a{3}'                  : Matches exactly three consecutive 'a' characters.
 'a?'                    : Matches zero or one occurrence of 'a'.
 'a+'                    : Matches one or more occurrences of 'a'.
@@ -79,9 +76,11 @@
 '(abc)'                 : Groups the characters 'abc' together.
 'a|b'                   : Matches either 'a' or 'b'.
 
+
 '\'                     : Escapes special characters, allowing you to match them literally.
 '\b'                    : Matches the string only at a word boundary. Ex1: \bstring\b  Ex2: \b(cat | dog)\b
 '\B'                    : Matches the string with more boundary boundary. Ex1: \bstring\b  Ex2: \b(cat | dog)\b
+
 
 '(?i)case-insensitive'  : Performs a case-insensitive match.
 ```
