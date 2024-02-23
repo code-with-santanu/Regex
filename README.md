@@ -69,10 +69,14 @@
 '$'                     : Anchors the regex at the end of the string.
 
 
-'a{3}'                  : Matches exactly three consecutive 'a' characters.
-'a?'                    : Matches zero or one occurrence of 'a'.
-'a+'                    : Matches one or more occurrences of 'a'.
-'a*'                    : Matches zero or more occurrences of 'a'.
+'a{n}'                  : Matches exactly n consecutive 'a' characters.
+'a{n,m}'                : Matches arranged quantifier specify a range of occurence from the preceeding element  n to m times.
+'a{n,}'                 : Matches arranged quantifier specify a range of occurence from the preceeding element can appear atleast n times.
+'a{,m}'                 : Matches arranged quantifier specify a range of occurence from the preceeding element can appear atmost  m times
+
+'a?'                    : Matches 0 or 1 occurrence of 'a'.
+'a+'                    : Matches 1 or more occurrences of 'a'.
+'a*'                    : Matches 0 or more occurrences of 'a'.
 '(abc)'                 : Groups the characters 'abc' together.
 'a|b'                   : Matches either 'a' or 'b'.
 
