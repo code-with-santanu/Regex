@@ -84,3 +84,35 @@
 
 '(?i)case-insensitive'  : Performs a case-insensitive match.
 ```
+
+---
+
+<h2>Regex in Python</h2>
+
+<p>There is a python built-in module that helps to deal with regex.</p>
+
+Module name: `re`
+
+### Usage:
+
+- To use the module, first install the module using:
+
+```
+pip install re
+```
+
+- Import the module to your python file:
+
+```
+import re
+```
+
+- In `re` module offers some methods that are used to find the matching pattern
+
+  1. **findall( pattern, text )** : Returns a list containing all matches
+
+  2. **search( pattern, text, re.IGNORECASE<sub>optional</sub>)** : Returns a Match object if there is a match anywhere in the string. re.IGNORECASE is used to search the pattern of both lower and upper case.
+
+  3. **split( pattern, text, occurrence<sub>optional</sub>)** : Returns a list where the string has been split at each match
+
+  4. **sub( pattern, replace_pattern, text, occurrence<sub>optional</sub>)** : Replaces one or many matches with a string
