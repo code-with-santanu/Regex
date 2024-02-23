@@ -87,7 +87,7 @@
 
 ---
 
-<h2>Regex in Python</h2>
+<h2 align="center">Regex in Python</h2>
 
 <p>There is a python built-in module that helps to deal with regex.</p>
 
@@ -116,3 +116,34 @@ import re
   3. **split( pattern, text, occurrence<sub>optional</sub>)** : Returns a list where the string has been split at each match
 
   4. **sub( pattern, replace_pattern, text, occurrence<sub>optional</sub>)** : Replaces one or many matches with a string
+
+---
+
+<!-- CONTRIBUTION  -->
+
+## Contribution 🙋
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Repository
+2. Create your Feature Branch
+3. Commit your Changes
+4. Push to the Branch
+5. Open a Pull Request
+
+<!-- Support -->
+
+## ☺️ Support
+
+💙 If you like this, give it a ⭐ and share it with friends!<br><br>
+
+<!-- CONTACT -->
+
+## Contact
+
+For More Projects,
+GitHub: [Santanu Pal](https://github.com/code-with-santanu)
+
+---
+
+Made with ❤️ and python <br><br>
