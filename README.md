@@ -17,7 +17,7 @@
 
    Text= _**a**,**b**,**c**_
 
-3. `Anchors :` Anchors or sprecial characters allow you to match any character.
+3. `Anchors :` Anchors(^ and $) or special characters allow you to match any character.
 
    Ex1: Pattern= _"**.**"_
 
@@ -46,3 +46,42 @@
    Text2= _The **cat** is a very adorable animal_
 
    Text3= _The **cat** chased the playful **dog** around the garden_
+
+---
+
+<h2 align="center">Some Predefined Metacharacters & Alteration</h2>
+
+```
+'[abcde]'               : Matches any one of the specified characters.
+'[^abcde]'              : Matches any character except the ones specified. It's a negated  character class.
+
+
+'\d' or  [0-9]          : Matches any digit (0-9).
+'\D' or  [^0-9]         : Matches any non-digit character.
+'\w' or  [A-Za-z0-9_]   : Matches any alphanumeric including underscore(_)
+'\W' or  [^A-Za-z0-9_]  : Matches any non-alphanumeric character excluding underscore(_).
+'\s'                    : Matches any whitespace character (spaces, tabs, newlines).
+'\S'                    : Matches any non-whitespace character.
+
+
+'.'                     : Matches any character except a newline.
+'^'                     : Anchors the regex at the start of the string.
+'$'                     : Anchors the regex at the end of the string.
+
+
+
+
+
+'a{3}'                  : Matches exactly three consecutive 'a' characters.
+'a?'                    : Matches zero or one occurrence of 'a'.
+'a+'                    : Matches one or more occurrences of 'a'.
+'a*'                    : Matches zero or more occurrences of 'a'.
+'(abc)'                 : Groups the characters 'abc' together.
+'a|b'                   : Matches either 'a' or 'b'.
+
+'\'                     : Escapes special characters, allowing you to match them literally.
+'\b'                    : Matches the string only at a word boundary. Ex1: \bstring\b  Ex2: \b(cat | dog)\b
+'\B'                    : Matches the string with more boundary boundary. Ex1: \bstring\b  Ex2: \b(cat | dog)\b
+
+'(?i)case-insensitive'  : Performs a case-insensitive match.
+```
