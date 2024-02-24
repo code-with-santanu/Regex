@@ -9,17 +9,14 @@ import re
 
 def match_words():
     # Define the regular expression pattern to match
-    pattern = r"."  # pattern = r"abc.*"
+    pattern = r".*"  # pattern = r"abc.*"
 
     words = ["abc", "abcd", "abcde"]
     # Iterate through each word in the list
     for word in words:
         # Use re.search to check if the pattern is found in the current word
-        if not re.search(pattern, word):
-            return False
-
-    return True
+        print(re.search(pattern, word))
 
 
 if __name__ == "__main__":
-    print(match_words())
+    match_words()
